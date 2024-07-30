@@ -14,8 +14,8 @@ import com.bumptech.glide.Glide;
 import java.util.List;
 
 public class ProfileItem extends RecyclerView.Adapter<MyViewHolderUser> {
-    private Context context;
-    private List<UserProfileData> dataList;
+    private final Context context;
+    private final List<UserProfileData> dataList;
 
     public ProfileItem(Context context, List<UserProfileData> dataList) {
         this.context = context;

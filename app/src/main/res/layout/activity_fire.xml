@@ -37,22 +37,22 @@
         android:text="Call Fire Department"
         android:layout_below="@+id/icFire"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="120dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="80dp"
         android:layout_alignParentLeft="true"
         android:backgroundTint="@color/lavander"/>
 
     <Button
         android:id="@+id/btnCallAmbulance"
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="60dp"
         android:text="Call Ambulance"
         android:layout_below="@+id/icFire"
         android:layout_marginTop="50dp"
         android:layout_alignEnd="@+id/btnCallFire"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="50dp"
-        android:layout_marginStart="120dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="100dp"
         android:backgroundTint="@color/brunswick_green"/>
 
     <Button

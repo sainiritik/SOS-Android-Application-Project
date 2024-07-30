@@ -40,7 +40,7 @@
             android:layout_height="100dp"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="200dp"
-            android:layout_marginStart="400dp"
+            android:layout_marginStart="300dp"
             android:layout_marginBottom="15dp"
             android:layout_marginRight="20dp"
             android:id="@+id/aboutButton"
@@ -76,7 +76,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="200dp"
-        android:layout_marginStart="400dp"
+        android:layout_marginStart="300dp"
         android:layout_marginRight="20dp"/>
 
     </androidx.cardview.widget.CardView>
@@ -106,7 +106,7 @@
             android:layout_height="100dp"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="200dp"
-            android:layout_marginStart="400dp"
+            android:layout_marginStart="300dp"
             android:layout_marginBottom="15dp"
             android:layout_marginRight="20dp"
             android:id="@+id/feedbackButton"

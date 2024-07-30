@@ -15,8 +15,8 @@ public class ShakeDetector implements SensorEventListener {
     private OnShakeListener mListener;
     private long mShakeTimestamp;
     private int mShakeCount;
-    private SensorManager mSensorManager;
-    private Sensor mAccelerometer;
+    private final SensorManager mSensorManager;
+    private final Sensor mAccelerometer;
 
     public ShakeDetector(Context context) {
         mSensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);

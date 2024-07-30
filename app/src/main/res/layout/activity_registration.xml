@@ -31,10 +31,10 @@
         android:textColor="@color/lavander"
         android:background="@drawable/lavender_border"
         android:padding="10dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="450dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -49,8 +49,8 @@
         android:layout_below="@+id/name"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -64,8 +64,8 @@
         android:inputType="textPassword"
         android:padding="12dp"
         android:layout_below="@+id/email"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
     <Button
         android:layout_width="160dp"
@@ -73,7 +73,7 @@
         android:id="@+id/btnRegister"
         android:text="SIGNUP"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="16dp"
         android:layout_below="@+id/password"
         android:background="@drawable/lavender_border"/>
@@ -90,6 +90,6 @@
         android:layout_marginTop="20dp"
         android:layout_below="@+id/password"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="60dp"/>
+        android:layout_marginEnd="20dp"/>
 
 </RelativeLayout>

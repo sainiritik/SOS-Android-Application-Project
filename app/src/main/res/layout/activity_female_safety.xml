@@ -45,7 +45,7 @@
     <!-- Button to call women safety -->
     <Button
         android:id="@+id/btnWomenSafety"
-        android:layout_width="230dp"
+        android:layout_width="160dp"
         android:layout_height="60dp"
         android:text="Call Women Helpline"
         android:layout_below="@+id/textwomehelpline"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/btnPolice"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="60dp"
         android:layout_alignParentRight="true"
         android:text="Call Police"
