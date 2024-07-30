@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts"
+    android:background="@color/platinum">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/recyclerViewProfile"
+        android:scrollbars="vertical"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/recCardUser"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@id/cardFeedback"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="About"
+            android:textSize="16dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="200dp"
+            android:layout_marginStart="400dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/aboutButton"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            app:fab_colorNormal="@color/brunswick_green"
+            app:fab_colorPressed="@color/white">
+        </com.github.clans.fab.FloatingActionButton>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDarkMode"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@id/recyclerViewProfile"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Dark Mode"
+            android:textSize="16dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchTheme"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginRight="20dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@id/cardDarkMode"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Feedback"
+            android:textSize="16dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="200dp"
+            android:layout_marginStart="400dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/feedbackButton"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            app:fab_colorNormal="@color/brunswick_green"
+            app:fab_colorPressed="@color/white">
+        </com.github.clans.fab.FloatingActionButton>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabeditprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/lavander"
+        app:tint = "@color/white"
+        android:src="@drawable/ic_baseline_add_reaction_24" />
+
+</RelativeLayout>

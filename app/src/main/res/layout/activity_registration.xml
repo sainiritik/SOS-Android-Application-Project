@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/signupbkg"
+    android:padding="16dp"
+    tools:context=".Registration">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:circularflow_radiusInDP="30dp"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:textColorHint="@color/lavander"
+        android:textColor="@color/lavander"
+        android:background="@drawable/lavender_border"
+        android:padding="10dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:circularflow_radiusInDP="30dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textColorHint="@color/lavander"
+        android:textColor="@color/lavander"
+        android:background="@drawable/lavender_border"
+        android:padding="10dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:circularflow_radiusInDP="30dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColorHint="@color/lavander"
+        android:textColor="@color/lavander"
+        android:background="@drawable/lavender_border"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnRegister"
+        android:text="SIGNUP"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/password"
+        android:background="@drawable/lavender_border"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/loginnow"
+        android:text="Already registered? Login"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/brunswick_green"
+        android:background="@drawable/lavender_border"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"/>
+
+</RelativeLayout>

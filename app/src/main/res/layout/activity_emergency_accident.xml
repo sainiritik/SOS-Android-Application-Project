@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Accident Assistance"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you witness a road accident, please provide assistance by calling emergency services and providing first aid if possible."
+        android:textSize="14dp"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Fire Department -->
+    <Button
+        android:id="@+id/btnFire"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Fire Department (Fire)"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/lavander"/>
+
+    <!-- Ambulance -->
+    <Button
+        android:id="@+id/btnAmbulance"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Ambulance"
+        android:layout_below="@id/btnFire"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/brunswick_green"/>
+
+    <!-- Police -->
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Police"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/Red"/>
+
+    <!-- Road Department -->
+    <Button
+        android:id="@+id/btnRoadDepartment"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Road Department"
+        android:layout_below="@id/btnPolice"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/black_olive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Use these numbers for contact"
+        android:layout_below="@+id/btnAmbulance"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

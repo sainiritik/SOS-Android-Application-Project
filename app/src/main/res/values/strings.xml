@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ritik_1</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="About">Synopsis of
+SOS ASSISTANT APPLICATION
+Major Project Work
+
+Submitted by
+Raturi Aastha (21014050017)
+Shakti Vardhan (21014050023)
+Ritik Saini (21014050018)
+
+in the partial fulfillment of the requirements for the award of the diploma DIPLOMA
+in
+COMPUTER SCIENCE AND ENGINEERING
+
+Under the super vision of
+Mrs. Rachna Rana
+(Lecturer, C.S.E. Department) Mr.Manmohan Lakhera (Lecturer, C.S.E. Department)
+
+
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING GOVT. POLYTECHNIC SRINAGAR
+UTTARAKHAND – INDIA
+
+Session - 2024 (Summer)
+</string>
+    <string name="channel_name">SOS</string>
+    <string name="channel_description">Ritik_1</string>
+</resources>

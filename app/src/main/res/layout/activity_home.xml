@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/platinum"
+    tools:context=".Home">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_view"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hold On Application is developing by Ritik Saini"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

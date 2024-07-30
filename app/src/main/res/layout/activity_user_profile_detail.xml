@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileDetail"
+    android:orientation="vertical"
+    android:background="@color/platinum">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Inormation"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="55dp"
+                android:id="@+id/detailuserImage"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:id="@+id/detailuserName"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/detailuserImage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/detailuserNumber"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:text="Number"
+                android:textSize="18dp"
+                android:gravity="start|center_vertical"
+                android:layout_below="@+id/detailuserName"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/detailuserEmail"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:text="Email"
+                android:textSize="18dp"
+                android:gravity="start|center_vertical"
+                android:layout_below="@+id/detailuserNumber"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/detailuserAddress"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:text="Address"
+                android:textSize="18dp"
+                android:gravity="start|center_vertical"
+                android:layout_below="@+id/detailuserEmail"/>
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:menu_fab_size="normal"
+                app:menu_colorPressed="@color/brunswick_green"
+                app:menu_colorNormal="@color/lavander"
+                app:menu_icon="@drawable/ic_baseline_arrow_drop_up_24"
+                app:menu_openDirection="up"
+                app:menu_showShadow="true"
+                android:layout_marginTop="-180dp"
+                android:layout_marginLeft="260dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edituserButton"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    app:fab_showShadow="true"
+                    app:fab_colorNormal="@color/lavander"
+                    app:fab_colorPressed="@color/brunswick_green"
+                    app:fab_size="mini"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/deleteuserButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    app:fab_colorNormal="@color/lavander"
+                    app:fab_colorPressed="@color/Red"
+                    app:fab_showShadow="true"
+                    app:fab_size="mini" />
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

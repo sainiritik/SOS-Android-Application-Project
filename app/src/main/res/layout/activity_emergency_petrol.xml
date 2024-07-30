@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty Petrol Assistance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you run out of petrol on the road, you can order petrol through the following options."
+        android:textSize="16sp"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Call for Petrol Button -->
+    <Button
+        android:id="@+id/btnCallForPetrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call for Petrol"
+        android:layout_below="@id/textDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/lavander"/>
+
+    <!-- Petrol Delivery Service Numbers -->
+    <TextView
+        android:id="@+id/textNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Petrol Delivery Service Numbers:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/btnCallForPetrol"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Petrol Delivery Service Numbers Description -->
+    <TextView
+        android:id="@+id/textNumbersDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter these numbers to order petrol delivery to your location."
+        android:textSize="16sp"
+        android:layout_below="@id/textNumbers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Numbers for Petrol Delivery Services -->
+    <TextView
+        android:id="@+id/textPetrolNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="1. Petrol Service Number: 1800-123-4567\n2. Roadside Assistance: 1800-987-6543"
+        android:layout_below="@id/textNumbersDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

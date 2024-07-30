@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FireActivity">
+
+    <View
+        android:id="@+id/firebgview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_view"/>
+
+    <TextView
+        android:id="@+id/textFire"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fire"
+         android:textAlignment="center"
+        android:layout_below="@+id/firebgview"
+        android:textSize="54dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/icFire"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/ic_baseline_fire_24"
+        android:layout_below="@id/textFire"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnCallFire"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Call Fire Department"
+        android:layout_below="@+id/icFire"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="120dp"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/lavander"/>
+
+    <Button
+        android:id="@+id/btnCallAmbulance"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Call Ambulance"
+        android:layout_below="@+id/icFire"
+        android:layout_marginTop="50dp"
+        android:layout_alignEnd="@+id/btnCallFire"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="@color/brunswick_green"/>
+
+    <Button
+        android:id="@+id/btnCallPolice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Call Police"
+        android:layout_below="@id/btnCallAmbulance"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/Red"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCallPolice"
+        android:layout_marginTop="20dp"
+        android:text="Press the buttons to call the respective emergency services."
+        android:textAlignment="center"/>
+</RelativeLayout>

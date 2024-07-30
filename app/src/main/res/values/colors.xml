@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="tangerane">#F28500</color>
+    <color name="black_olive">#3B3C36</color>
+    <color name="brunswick_green">#246753</color>
+    <color name="colorPrimary">#FE6F5E</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="lavander">#8692f7</color>
+    <color name="Red">#FF0800</color>
+</resources>
+

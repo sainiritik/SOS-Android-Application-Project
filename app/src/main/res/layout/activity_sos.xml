@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sos_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/platinum">
+
+    <!-- Background -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_view"/>
+
+    <!-- Edit SOS Number Button -->
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/edit_sosno"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/ic_baseline_edit_24"
+        app:fab_colorNormal="@color/platinum"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/restore_sosno"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:layout_alignRight="@+id/edit_sosno"
+        android:src="@drawable/ic_baseline_restore_24"
+        app:fab_colorNormal="@color/platinum"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sosshake"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:layout_alignRight="@+id/restore_sosno"
+        android:src="@drawable/ic_baseline_restore_24"
+        app:fab_colorNormal="@color/platinum"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Shake"
+        android:layout_alignBottom="@+id/sosshake"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginTop="50dp"/>
+
+    <!-- SOS Icon -->
+    <ImageView
+        android:id="@+id/sos_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_emergency_24"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@id/sos_text"
+        android:backgroundTint="@color/Red"/>
+
+    <!-- SOS Text -->
+    <TextView
+        android:id="@+id/sos_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="EMERGENCY SOS"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"/>
+
+    <!-- SOS Description -->
+    <TextView
+        android:id="@+id/sos_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tap the button below to send an emergency alert."
+        android:textSize="16sp"
+        android:layout_below="@id/sos_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        android:layout_below="@id/sos_description">
+
+        <!-- SOS Button -->
+        <ImageButton
+            android:id="@+id/sos_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:background="@drawable/sos_button_png"
+            android:backgroundTint="@color/Red"
+            android:text="SEND SOS"
+            android:layout_below="@id/sos_description"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
