@@ -1,4 +1,4 @@
-package com.example.ritik_1;
+/*package com.example.ritik_1;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
+import com.example.ritik_1.logic.LoginTest;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -64,7 +65,7 @@ public class Registration extends AppCompatActivity {
         buttonloginnow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LogIn.class);
+                Intent intent = new Intent(getApplicationContext(), LoginTest.class);
                 startActivity(intent);
                 finish();
             }
@@ -159,3 +160,4 @@ public class Registration extends AppCompatActivity {
         notificationManager.notify(1, builder.build());
     }
 }
+*/

@@ -1,4 +1,4 @@
-package com.example.ritik_1;
+/*package com.example.ritik_1;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -145,3 +145,4 @@ public class LogIn extends AppCompatActivity {
         notificationManager.notify(NOTIFICATION_ID, builder.build());
     }
 }
+*/

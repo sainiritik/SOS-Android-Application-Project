@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/signupbkg"
     android:padding="16dp"
-    tools:context=".Registration">
+    tools:context=".ui.Registration">
 
     <ProgressBar
         android:id="@+id/progressBar"
